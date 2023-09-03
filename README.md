@@ -3,14 +3,14 @@
 - [Purpose](#purpose)
 - [Fully Configured VM](#fully-configured-vm)
 - [Configuring your Windows Server with PowerShell](#configuring-your-windows-server-with-powershell)
-- [Importing Vulnerable Templates]()
+- [Importing Vulnerable Templates](#importing-vulnerable-templates)
 - [Active Directory Certificate Services Basics](#active-directory-certificate-services-basics)
 - [Intro to Certipy](#intro-to-certipy)
-- [Misconfigured Certificate Templates - ESC1]()
-- [Misconfigured Certificate Templates - ESC2]()
-- [Misconfigured Enrollment Agent Templates - ESC3]()
-- [Vulnerable Certificate Template Access Control - ESC4]()
-- [Vulnerable Certificate Authority Access Control - ESC7]()
+- [Misconfigured Certificate Templates - ESC1](#misconfigured-certificate-templates---esc1)
+- [Misconfigured Certificate Templates - ESC2](#misconfigured-certificate-templates---esc2)
+- [Misconfigured Enrollment Agent Templates - ESC3](#misconfigured-enrollment-agent-templates---esc3)
+- [Vulnerable Certificate Template Access Control - ESC4](#vulnerable-certificate-template-access-control---esc4)
+- [Vulnerable Certificate Authority Access Control - ESC7](#vulnerable-certificate-authority-access-control---esc7)
 
 ## Purpose
 
@@ -24,7 +24,7 @@ I also strongly recommend taking a look at the following articles by [Oliver Lya
 
 [Certipy 4.0: ESC9 & ESC10, BloodHound GUI, New Authentication and Request Methods — and more!](https://research.ifcr.dk/certipy-4-0-esc9-esc10-bloodhound-gui-new-authentication-and-request-methods-and-more-7237d88061f7)
 
-Another recommended reading is Schroeder's and Christensen's follow-up article [Certificates and Pwnage and Patches, Oh My!](https://posts.specterops.io/certificates-and-pwnage-and-patches-oh-my-8ae0f4304c1d](https://posts.specterops.io/certificates-and-pwnage-and-patches-oh-my-8ae0f4304c1d)
+Another recommended reading is Schroeder's and Christensen's follow-up article [Certificates and Pwnage and Patches, Oh My!](https://posts.specterops.io/certificates-and-pwnage-and-patches-oh-my-8ae0f4304c1d).
 
 You can follow along with this guide and we'll configure things together or you can download the fully configured VM from the provided link. The VM was created and tested on VMWare Workstation. 
 
@@ -34,7 +34,7 @@ The following escalation paths are available: ESC1, ESC2, ESC3, ESC4, and ESC7.
 
 ## Fully Configured VM
 
-You can download the .ova file for the VM from [here](https://mega.nz/file/tiFnAaTJ#KyzmL-RfspEwA_EIV4WF_I97_-xrTxT8CzhLL63fnh0). Keep in mind that it's ~11GB in size, it's been allocated 2GB of RAM. To find the IP of the VM, you can log in as the administrator or just do `arp-scan -l` from your attacker machine.
+You can download the .ova file for the VM from [here](https://mega.nz/file/En03zSTC#UU940Sv3jIjExDcj2nmpH_WgLTKo6B5p_oVHVMQpvnk). Keep in mind that it's ~11GB in size, it's been allocated 2GB of RAM. To find the IP of the VM, you can log in as the administrator or just do `arp-scan -l` from your attacker machine.
 
 ### Passwords for the VM
 
