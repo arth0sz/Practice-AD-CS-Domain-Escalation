@@ -11,6 +11,7 @@
 - [Misconfigured Enrollment Agent Templates - ESC3](#misconfigured-enrollment-agent-templates---esc3)
 - [Vulnerable Certificate Template Access Control - ESC4](#vulnerable-certificate-template-access-control---esc4)
 - [Vulnerable Certificate Authority Access Control - ESC7](#vulnerable-certificate-authority-access-control---esc7)
+- [Final Words](#final-words)
 
 ## Purpose
 
